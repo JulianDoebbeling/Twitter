@@ -1,0 +1,1 @@
+insert into tweets(id, id_str, profile_image_url, from_user, unmodified_text, created_at, url, display_url, expanded_url, media_url) values ();

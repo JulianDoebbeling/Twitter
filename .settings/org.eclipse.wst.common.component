@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Twitter">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="app4library.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/app4library/app4library">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Twitter"/>
+        <property name="java-output-path" value="/Twitter/bin"/>
+    </wb-module>
+</project-modules>
